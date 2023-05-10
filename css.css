@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 25px;
+    Letter-spacing: 1px;
+    position: relative; 
+    width: auto;;
+    background-color: #66a0cd;
+    padding: 0px;
+    margin-left: 650px;
+    margin-top: 340px;
+}
+.div1, .div2, .div3, .div4{
+padding: 15px;
+border: 1px solid aquamarine;
+width: 500px;
+}
+.img1, .img2, .img3, .img4 {
+    width: 30px;
+    height: 30px;  
+}
+.up{
+    text-decoration: none;
+    color: #ffebcd;
+}
+.del{
+    text-decoration: none;
+    color: #ffebcd;
+}
+.down{
+    text-decoration: none;
+    color: #ffebcd;
+}
+@media screen and (max-width: 1370px) {
+    body{
+        margin-left: 410px;
+        margin-top: 180px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    body{
+        margin-left: 240px;
+        margin-top: 220px;
+    }
+}
